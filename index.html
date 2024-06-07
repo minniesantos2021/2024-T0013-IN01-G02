@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <!-- "lang" define o idioma do site -->
+  <head>
+    <!-- Aceita caracteres acentuados -->
+    <meta charset="UTF-8" />
+    <!-- tag para melhorar a responsividade do site -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Chamada ao arquivo .css com a estilização da página -->
+    <link rel="stylesheet" href="src/style/style.css" />
+    <!-- Ícone do site -->
+    <link rel="shortcut icon" href="src/assets/textsAndButtons/100celsius.ico" type="image/x-icon">
+    <!-- Chamada à biblioteca Phaser -->
+    <script src="src/scripts/phaser.min.js"></script>
+    <!-- Título do site -->
+    <title>100º Celsius</title>
+  </head>
+  <body>
+    <!-- Mensagem para orientar o jogador a mudar a orientação de tela -->
+    <div id="landscapeAlert">Por favor, gire seu dispositivo para o modo paisagem para uma melhor experiência de jogo.</div>
+    <!-- script principal do jogo, onde a classe phaser é instanciada e tudo é configurado -->
+    <script type="module" src="src/scripts/main.js"></script>
+  </body>
+</html>
